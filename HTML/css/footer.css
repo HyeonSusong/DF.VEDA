@@ -1,0 +1,32 @@
+.footer{
+    height: 190px;
+    width: 100%;
+    min-width: 671PX;
+    border-top: rgb(80, 80, 80);
+    border-top-width: 0.5px;
+    border-top-style: solid;
+    background-color: rgb(39, 39, 39);
+    color: #fafafa;
+    font-weight: 900;
+    padding-left: 50px;
+
+}
+.footer .footerLogo {
+    min-width: 270px;
+    font-size: 58px;
+    float: left;
+}
+
+
+.footer .footerText {
+    min-width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 12px;
+    padding-left: 250PX;
+}
+
+.footer .footerBoth{
+    float: none;
+}

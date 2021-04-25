@@ -1,0 +1,70 @@
+.header{
+    height: 65px;
+    width: 100%;
+    min-width: 711px;
+    background-color:#191919;
+    font-size: 24px;
+    border-bottom-color: #333333;
+    border-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.header .nav .menuBar{
+    width: 100%;
+}
+
+.header .nav .menu{
+    width: 25%;
+    min-width: 130px;
+    border-width: 0.5px;
+    border-left: solid,  #9286dd;
+}
+
+.header .nav .menu p{
+    width: 100%;
+    color: #a9a9a9;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header .menu p:hover{
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.header .nav .menuBar .logo{
+    width: 150px;
+    font-size: 35px;
+    font-weight: 800;
+    font-style: normal;
+    color: #f3bd27;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;;
+    text-align: center;
+
+}
+
+
+.header .login p{
+    position: relative;
+    
+    width: 100px;
+    color: rgb(14, 129, 206);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.header .login p:hover{
+    color: rgb(223, 209, 19);
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: 'NanumBarunGothic', 'serif';
+    background-color: #161616;
+    margin: 0%;
+}
+
+.serchBarWrap{
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 658px;
+    height: 160px;
+}
+
+.serchBarWrap .serchBar{
+    width: 540px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 3px 0px 0px 10px;
+    
+}
+
+
+.serchBarWrap .serchBtn{
+    width: 54px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px auto;
+    text-align: center;
+    position: inherit;
+    float: right;
+    font-family: 'NanumBarunGothic', 'serif';
+    background-color: #FAFAFA;
+    background-image: url(icon/search5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3PX;
+}
+.serchBarWrap .serchBtn:hover{
+    background-color: #dadada;
+}
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+@font-face { 
+    font-family: 'NanumBarunGothic';
+    src: url('fonts/NanumBarunGothic.ttf');
+    src: url('fonts/NanumBarunGothic.ttf') format('embedded-opentype'),
+    url('fonts/NanumBarunGothic.otf') format('off');
+}
+    
